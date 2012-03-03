@@ -5,7 +5,9 @@ def funcaoFizzBuzz(entrada):
         return "fizz"
     if(entrada == 3):
         return "buzz"
-    
+    if(entrada % 2 == 0):
+        return "fizz"
+        
     return "fizzbuzz"
 
 class nomedaclassedeTest (unittest.TestCase) :
