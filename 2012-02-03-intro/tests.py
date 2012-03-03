@@ -9,6 +9,9 @@ def gerar_candidatos(limite):
     return cand
 
 def gerar_primos_ate(limite):
+    if limite < 2:
+        return []
+        
     cand = gerar_candidatos(limite + 1)
 
     for primo in range(2, limite + 1):

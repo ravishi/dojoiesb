@@ -41,6 +41,11 @@ class TestCrivoEratostenes(unittest.TestCase):
     def teste_primos_ate_vinte(self):
         self.assertEquals([2, 3, 5, 7, 11, 13, 17, 19], gerar_primos_ate(20))
 
+
+    def teste_primos_para_entradas_negativas(self):
+        self.assertEquals([], gerar_primos_ate(-1))
+
+
     def teste_inicializa_lista_de_candidatos(self):
         candidatos = gerar_candidatos(3)
 
