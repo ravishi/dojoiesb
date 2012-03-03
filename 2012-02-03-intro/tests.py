@@ -10,10 +10,9 @@ def gerar_candidatos(limite):
 
 def gerar_primos_ate(limite):
     cand = gerar_candidatos(limite)
-    if limite == 2:
-        return [2]
-    else:
-        return [2, 3]
+
+    for primo in range(2, limite):
+        for multiplo in range(primo*2, limite, primo):
 
 class TestCrivoEratostenes(unittest.TestCase):
     def teste_primos_ate_2(self):

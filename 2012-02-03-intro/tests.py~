@@ -9,6 +9,7 @@ def gerar_candidatos(limite):
     return cand
 
 def gerar_primos_ate(limite):
+    cand = gerar_candidatos(limite)
     if limite == 2:
         return [2]
     else:
