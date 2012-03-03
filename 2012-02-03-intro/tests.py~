@@ -15,6 +15,12 @@ def gerar_primos_ate(limite):
         for multiplo in range(primo*2, limite, primo):
             cand[multiplo] = False
 
+    ret = []
+    for num in range(limite):
+        if cand[num] == True:
+            ret.append(num)
+    return ret
+
 class TestCrivoEratostenes(unittest.TestCase):
     def teste_primos_ate_2(self):
         self.assertEquals([2], gerar_primos_ate(2))
