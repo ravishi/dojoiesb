@@ -1,15 +1,16 @@
 import unittest
 
 def funcaoFizzBuzz(entrada):
-    saida = "";
     if (entrada == 2):
         return "fizz"
     if(entrada == 3):
         return "buzz"
-    if(entrada % 2 == 0):
-        saida = "fizz"
-        
-    return saida
+    if (entrada == 6):
+        return "fizzbuzz"
+    #if(entrada % 2 == 0):
+        #saida = "fizz"
+    #if(entrada % 3 == 0)
+    #return saida
 
 class nomedaclassedeTest (unittest.TestCase) :
     def teste_fizz_2 (self) :
