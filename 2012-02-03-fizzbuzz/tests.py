@@ -3,8 +3,10 @@ import unittest
 def funcaoFizzBuzz(entrada):
     if (entrada == 2):
         return "fizz"
-
-    return "buzz"
+    if(entrada == 3)
+        return "buzz"
+    
+    return "fizzbuzz"
 
 class nomedaclassedeTest (unittest.TestCase) :
     def teste_fizz_2 (self) :
