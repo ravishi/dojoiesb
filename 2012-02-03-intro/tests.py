@@ -3,7 +3,7 @@ import unittest
 def gerar_candidatos(limite):
     cand = []
     for num in range(0, limite):
-        cand[num] = True
+        cand.append(True)
 
 def gerar_primos_ate(limite):
     if limite == 2:
