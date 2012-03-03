@@ -1,7 +1,7 @@
 import unittest
 
 def funcaoFizzBuzz(entrada):
-    if (entrada == 2)
+    if (entrada == 2):
         return "fizz"
 
     return "buzz"
