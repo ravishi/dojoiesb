@@ -24,9 +24,9 @@ class TestCrivoEratostenes(unittest.TestCase):
     def teste_inicializa_lista_de_candidatos(self):
         candidatos = gerar_candidatos(3)
 
-        self.assertEquals([False], candidatos[0])
-        self.assertEquals([False], candidatos[1])
+        self.assertEquals(False, candidatos[0])
+        self.assertEquals(False, candidatos[1])
 
         for i in range(2, len(candidatos)):
-            self.assertEquals([True], candidatos[i])
+            self.assertEquals(True, candidatos[i])
             
