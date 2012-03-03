@@ -9,7 +9,7 @@ def gerar_candidatos(limite):
     return cand
 
 def gerar_primos_ate(limite):
-    cand = gerar_candidatos(limite)
+    cand = gerar_candidatos(limite + 1)
 
     for primo in range(2, limite + 1):
         for multiplo in range(primo*2, limite + 1, primo):

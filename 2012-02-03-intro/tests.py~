@@ -11,14 +11,15 @@ def gerar_candidatos(limite):
 def gerar_primos_ate(limite):
     cand = gerar_candidatos(limite)
 
-    for primo in range(2, limite):
-        for multiplo in range(primo*2, limite, primo):
+    for primo in range(2, limite + 1):
+        for multiplo in range(primo*2, limite + 1, primo):
             cand[multiplo] = False
 
     ret = []
-    for num in range(limite):
+    for num in range(limite + 1):
         if cand[num] == True:
             ret.append(num)
+            
     return ret
 
 class TestCrivoEratostenes(unittest.TestCase):
