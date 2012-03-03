@@ -1,6 +1,6 @@
 import unittest
 
-def inicializa_candidatos(limite):
+def gerar_candidatos(limite):
     cand = []
     for num in range(0, limite):
         cand[i] = True
