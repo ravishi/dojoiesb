@@ -8,7 +8,7 @@ def funcaoFizzBuzz(entrada):
     if (entrada == 6):
         return "fizzbuzz"
     if(entrada % 2 == 0):
-        return = "fizz"
+        return "fizz"
     #if(entrada % 3 == 0)
     #return saida
 
