@@ -7,10 +7,10 @@ def funcaoFizzBuzz(entrada):
     return "buzz"
 
 class nomedaclassedeTest (unittest.TestCase) :
-    def teste_fizz (self) :
+    def teste_fizz_2 (self) :
         self.assertEquals("fizz",funcaoFizzBuzz(2))
 
-    def teste_buzz (self) :
+    def teste_buzz_3 (self) :
         self.assertEquals("buzz",funcaoFizzBuzz(3))
 
     #def teste_fizz_buzz (self) :
