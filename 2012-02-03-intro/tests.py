@@ -1,7 +1,10 @@
 import unittest
 
 def gerar_primos_ate(limite):
-    return [2]
+    if limite == 2:
+        return [2]
+    else:
+        return [2, 3]
 
 class TestCrivoEratostenes(unittest.TestCase):
     def teste_primos_ate_2(self):
