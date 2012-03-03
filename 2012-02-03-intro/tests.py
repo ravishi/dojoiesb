@@ -1,5 +1,8 @@
 import unittest
 
+def inicializa_candidatos(limite):
+    cand = []
+
 def gerar_primos_ate(limite):
     if limite == 2:
         return [2]
