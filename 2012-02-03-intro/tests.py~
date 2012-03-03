@@ -13,6 +13,7 @@ def gerar_primos_ate(limite):
 
     for primo in range(2, limite):
         for multiplo in range(primo*2, limite, primo):
+            cand[multiplo] = False
 
 class TestCrivoEratostenes(unittest.TestCase):
     def teste_primos_ate_2(self):
