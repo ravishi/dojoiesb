@@ -4,6 +4,7 @@ def gerar_candidatos(limite):
     cand = []
     for num in range(0, limite):
         cand.append(True)
+    return cand
 
 def gerar_primos_ate(limite):
     if limite == 2:
