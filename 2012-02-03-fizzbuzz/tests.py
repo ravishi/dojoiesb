@@ -1,5 +1,5 @@
 import unittest
 
 class nomedaclassedeTest (unittest.TestCase) :
-    def oquevaisertestado (self) :
+    def teste_qualquer_coisa (self) :
         self.assertEquals("fizz",funcaoFizzBuzz(2))
