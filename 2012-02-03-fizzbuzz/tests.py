@@ -2,11 +2,11 @@ import unittest
 
 def funcaoFizzBuzz(entrada):
 
-    if(entrada % 6 == 0):
+    if entrada % 6 == 0:
         return "fizzbuzz"
-    if(entrada % 2 == 0):
+    if entrada % 2 == 0:
         return "fizz"
-    if(entrada % 3 == 0):
+    if entrada % 3 == 0:
         return "buzz"
     return str(entrada)
 
