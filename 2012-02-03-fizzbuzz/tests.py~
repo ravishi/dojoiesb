@@ -2,8 +2,6 @@ import unittest
 
 def funcaoFizzBuzz(entrada):
 
-    if (entrada == 6):
-        return "fizzbuzz"
     if(entrada % 6 == 0):
         return "fizzbuzz"
     if(entrada % 2 == 0):
@@ -11,6 +9,7 @@ def funcaoFizzBuzz(entrada):
     if(entrada % 3 == 0):
         return "buzz"
 
+    
 class nomedaclassedeTest (unittest.TestCase) :
     def teste_fizz_2 (self) :
         self.assertEquals("fizz",funcaoFizzBuzz(2))
