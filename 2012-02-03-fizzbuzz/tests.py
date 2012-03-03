@@ -28,4 +28,7 @@ class nomedaclassedeTest (unittest.TestCase) :
 
     def teste_fizz_buzz_12(self):
         self.assertEquals("fizzbuzz", funcaoFizzBuzz(12))
+
+    def teste_fizz_buzz_5(self):
+        self.assertEquals("5", funcaoFizzBuzz(5))
        
