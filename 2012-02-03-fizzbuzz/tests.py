@@ -13,7 +13,7 @@ class nomedaclassedeTest (unittest.TestCase) :
     def teste_buzz_3 (self) :
         self.assertEquals("buzz",funcaoFizzBuzz(3))
 
-    #def teste_fizz_buzz (self) :
-        #self.assertEquals("fizzbuzz",funcaoFizzBuzz(6))
+    def teste_fizz_buzz (self) :
+        self.assertEquals("fizzbuzz",funcaoFizzBuzz(6))
 
         
