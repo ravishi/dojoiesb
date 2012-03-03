@@ -9,8 +9,8 @@ def funcaoFizzBuzz(entrada):
         return "fizzbuzz"
     if(entrada % 2 == 0):
         return "fizz"
-    #if(entrada % 3 == 0)
-    #return saida
+    if(entrada % 3 == 0):
+        return "buzz"
 
 class nomedaclassedeTest (unittest.TestCase) :
     def teste_fizz_2 (self) :
